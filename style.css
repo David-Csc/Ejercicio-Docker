@@ -1,3 +1,8 @@
+.box-menu {
+  background-color: #0c70bf;
+  height          : 80px;
+}
+
 .box-img {
   overflow: hidden;
 }
@@ -8,9 +13,25 @@
 }
 
 .box-text {
-  position: absolute;
-  z-index : 99;
-  left    : 0;
-  bottom  : 0;
-  color   : white;
+  position       : absolute;
+  z-index        : 99;
+  left           : 0;
+  bottom         : 0;
+  color          : white;
+  display        : flex;
+  flex-direction : column;
+  justify-content: flex-start;
+}
+
+.box-img__link {
+  color  : white;
+  border : 2px solid white;
+  width  : fit-content;
+  padding: 0px 6px;
+}
+
+.box-img__parrafo {
+  font-weight: 700;
+  color      : white;
+  font-size  : 1.3rem
 }
