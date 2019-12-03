@@ -1,0 +1,16 @@
+.box-img {
+  overflow: hidden;
+}
+
+.box-img {
+  object-fit: cover;
+  position  : relative
+}
+
+.box-text {
+  position: absolute;
+  z-index : 99;
+  left    : 0;
+  bottom  : 0;
+  color   : white;
+}
